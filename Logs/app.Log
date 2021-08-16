@@ -1,0 +1,86 @@
+2021-08-16 09:40:08,670 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 09:40:08,676 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 09:40:08,676 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 09:40:08,676 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 09:40:08,677 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 09:40:08,677 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 09:40:08,678 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 09:40:08,678 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 09:40:08,678 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 09:40:08,679 DEBUG c.t.j.d.JDBCDemo [main] Americas
+2021-08-16 09:41:30,157 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 09:41:30,162 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 09:41:30,163 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 09:41:30,163 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 09:41:30,163 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 09:41:30,164 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 09:41:30,164 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 09:41:30,164 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 09:41:30,164 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 09:41:30,165 DEBUG c.t.j.d.JDBCDemo [main] Americas
+2021-08-16 09:46:14,868 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 09:46:14,872 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 09:46:14,872 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 09:46:14,872 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 09:46:14,872 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 09:46:14,873 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 09:46:14,873 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 09:46:14,873 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 09:46:14,874 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 09:46:14,874 DEBUG c.t.j.d.JDBCDemo [main] Americas
+2021-08-16 09:47:03,594 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 09:47:03,599 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 09:47:03,600 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 09:47:03,600 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 09:47:03,600 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 09:47:03,600 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 09:47:03,601 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 09:47:03,601 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 09:47:03,601 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 09:47:03,602 DEBUG c.t.j.d.JDBCDemo [main] Americas
+2021-08-16 09:51:30,846 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 09:51:30,853 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 09:51:30,853 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 09:51:30,854 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 09:51:30,854 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 09:51:30,854 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 09:51:30,855 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 09:51:30,855 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 09:51:30,855 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 09:51:30,856 DEBUG c.t.j.d.JDBCDemo [main] Americas
+2021-08-16 09:55:41,320 DEBUG c.t.j.d.JDBCDemo [main] 1 Europe
+2021-08-16 09:55:41,324 DEBUG c.t.j.d.JDBCDemo [main] 2 Americas
+2021-08-16 09:55:41,325 DEBUG c.t.j.d.JDBCDemo [main] 3 Asia
+2021-08-16 09:55:41,325 DEBUG c.t.j.d.JDBCDemo [main] 4 Middle East and Africa
+2021-08-16 09:55:41,325 DEBUG c.t.j.d.JDBCDemo [main] 6 North America
+2021-08-16 09:55:41,326 DEBUG c.t.j.d.JDBCDemo [main] 7 Antartica
+2021-08-16 09:55:41,328 DEBUG c.t.j.d.JDBCDemo [main] [Americas, Asia, Antartica]
+2021-08-16 09:55:41,332 DEBUG c.t.j.d.JDBCDemo [main] id =2 name=Americas
+2021-08-16 09:55:41,333 DEBUG c.t.j.d.JDBCDemo [main] id =7 name=Antartica
+2021-08-16 09:55:41,333 DEBUG c.t.j.d.JDBCDemo [main] id =3 name=Asia
+2021-08-16 09:55:41,333 DEBUG c.t.j.d.JDBCDemo [main] id =1 name=Europe
+2021-08-16 09:55:41,333 DEBUG c.t.j.d.JDBCDemo [main] id =4 name=Middle East and Africa
+2021-08-16 09:55:41,333 DEBUG c.t.j.d.JDBCDemo [main] id =6 name=North America
+2021-08-16 09:59:12,414 DEBUG c.t.j.d.JDBCDemo [main] 1 Europe
+2021-08-16 09:59:12,419 DEBUG c.t.j.d.JDBCDemo [main] 2 Americas
+2021-08-16 09:59:12,419 DEBUG c.t.j.d.JDBCDemo [main] 3 Asia
+2021-08-16 09:59:12,419 DEBUG c.t.j.d.JDBCDemo [main] 4 Middle East and Africa
+2021-08-16 09:59:12,419 DEBUG c.t.j.d.JDBCDemo [main] 6 North America
+2021-08-16 09:59:12,420 DEBUG c.t.j.d.JDBCDemo [main] 7 Antartica
+2021-08-16 09:59:12,421 DEBUG c.t.j.d.JDBCDemo [main] [Americas, Asia, Antartica]
+2021-08-16 09:59:12,425 DEBUG c.t.j.d.JDBCDemo [main] id =2 name=Americas
+2021-08-16 09:59:12,425 DEBUG c.t.j.d.JDBCDemo [main] id =7 name=Antartica
+2021-08-16 09:59:12,425 DEBUG c.t.j.d.JDBCDemo [main] id =3 name=Asia
+2021-08-16 09:59:12,425 DEBUG c.t.j.d.JDBCDemo [main] id =1 name=Europe
+2021-08-16 09:59:12,426 DEBUG c.t.j.d.JDBCDemo [main] id =4 name=Middle East and Africa
+2021-08-16 09:59:12,426 DEBUG c.t.j.d.JDBCDemo [main] id =6 name=North America
+2021-08-16 10:01:14,511 DEBUG c.t.j.d.JDBCDemo [main] 6
+2021-08-16 10:01:14,516 DEBUG c.t.j.d.JDBCDemo [main] North America
+2021-08-16 10:01:14,516 DEBUG c.t.j.d.JDBCDemo [main] 4
+2021-08-16 10:01:14,517 DEBUG c.t.j.d.JDBCDemo [main] Middle East and Africa
+2021-08-16 10:01:14,517 DEBUG c.t.j.d.JDBCDemo [main] 3
+2021-08-16 10:01:14,517 DEBUG c.t.j.d.JDBCDemo [main] Asia
+2021-08-16 10:01:14,517 DEBUG c.t.j.d.JDBCDemo [main] 7
+2021-08-16 10:01:14,517 DEBUG c.t.j.d.JDBCDemo [main] Antartica
+2021-08-16 10:01:14,518 DEBUG c.t.j.d.JDBCDemo [main] 2
+2021-08-16 10:01:14,518 DEBUG c.t.j.d.JDBCDemo [main] Americas

@@ -7,9 +7,15 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.tcs.jdbc.demo.JDBCDemo;
 
 public class JDBCDemo {
+	private static final Logger Logger = LogManager.getLogger(JDBCDemo.class);
 	public static void main(String[] args) {
+		
 		String DB_URL = "jdbc:mysql://localhost/practice";
 		String DB_USER = "root";
 		String DB_PASSWORD = "Nuvelabs123$";
@@ -18,19 +24,12 @@ public class JDBCDemo {
 			//Create(statement);
 			Update(statement);
 			List<String> regions = Reterive(statement);
-			System.out.println(regions);
+			//System.out.println(regions);
 		}
 		catch(SQLException e) {
 			e.printStackTrace();
-		}
-			
-		
+		}	
 	}
-
-	/**
-	 * @param statement
-	 * @throws SQLException 
-	 */
 	private static void Update(Statement statement) throws SQLException {
 		statement.executeUpdate("UPDATE regions set region_id = 7 where region_name = 'Antartica'");
 	}
@@ -39,8 +38,8 @@ public class JDBCDemo {
 		ResultSet resultset = statement.executeQuery("SELECT * from regions where region_name LIKE '%A%' order by region_name DESC");
 		List<String> regions = new ArrayList<String>();
 		while(resultset.next()) {
-			//System.out.println(resultset.getInt(1));
-			//System.out.println(resultset.getNString("REGION_NAME"));
+			Logger.debug(resultset.getInt(1));
+			Logger.debug(resultset.getNString("REGION_NAME"));
 			regions.add(resultset.getNString("REGION_NAME"));
 		}
 		return regions;
