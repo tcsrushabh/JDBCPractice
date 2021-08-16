@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JDBCDemo {
 	public static void main(String[] args) {
@@ -13,8 +15,10 @@ public class JDBCDemo {
 		String DB_PASSWORD = "Nuvelabs123$";
 		try(Connection connection = DriverManager.getConnection(DB_URL ,DB_USER, DB_PASSWORD);
 				Statement statement = connection.createStatement();){
-			Create(statement);
-			Reterive(statement);
+			//Create(statement);
+			Update(statement);
+			List<String> regions = Reterive(statement);
+			System.out.println(regions);
 		}
 		catch(SQLException e) {
 			e.printStackTrace();
@@ -23,12 +27,23 @@ public class JDBCDemo {
 		
 	}
 
-	private static void Reterive(Statement statement) throws SQLException {
-		ResultSet resultset = statement.executeQuery("SELECT * from regions");
+	/**
+	 * @param statement
+	 * @throws SQLException 
+	 */
+	private static void Update(Statement statement) throws SQLException {
+		statement.executeUpdate("UPDATE regions set region_id = 7 where region_name = 'Antartica'");
+	}
+ 
+	private static List<String> Reterive(Statement statement) throws SQLException {
+		ResultSet resultset = statement.executeQuery("SELECT * from regions where region_name LIKE '%A%' order by region_name DESC");
+		List<String> regions = new ArrayList<String>();
 		while(resultset.next()) {
-			System.out.println(resultset.getInt(1));
-			System.out.println(resultset.getNString("REGION_NAME"));
+			//System.out.println(resultset.getInt(1));
+			//System.out.println(resultset.getNString("REGION_NAME"));
+			regions.add(resultset.getNString("REGION_NAME"));
 		}
+		return regions;
 		
 	}
 
